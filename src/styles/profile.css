@@ -1,0 +1,75 @@
+.heading {
+  color: aqua;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bolder;
+  font-family: sans-serif;
+  margin-top: -3rem;
+  margin-bottom: 5vw;
+}
+
+.createOwn {
+
+  color: aqua;
+  margin-right: 2rem;
+  padding-top: 1rem;
+  text-align: right;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.profile-image-container {
+  margin: auto;
+  width: 150px;
+  /* Adjust the width as needed */
+  height: 150px;
+  /* Adjust the height as needed */
+  overflow: hidden;
+  border-radius: 50%;
+  /* Make it circular */
+  border: 2px solid #fff;
+  /* White border around the image */
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Optional: Add a subtle box shadow */
+}
+
+/* Style for the profile image */
+.profile-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Ensure the image covers the entire container */
+  border-radius: 50%;
+  /* Keep it circular */
+  /* z-index: 1; */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* 3 columns */
+  gap: 10px;
+  /* Gap between grid items */
+  text-align: center;
+  justify-content: center;
+}
+
+.profile-info {
+
+
+  margin: auto;
+  width: 150px;
+  /* Adjust the width as needed */
+  height: 150px;
+  /* Adjust the height as needed */
+  overflow: hidden;
+  text-align: center;
+  color: aquamarine;
+  margin-top: 1.25rem;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* .profile-container:hover .profile-info {
+    opacity: 1;
+  } */
